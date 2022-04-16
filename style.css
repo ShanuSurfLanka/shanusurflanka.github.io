@@ -40,11 +40,11 @@ img {
 
 @media (min-width:320px) {
     
-    .nav-wrapper{
+    .nav-main{
+        display: block;
         width: 320px;
         height: 40px;
         margin: 0 auto;
-    
         position: relative;
         text-align: center;
     }
