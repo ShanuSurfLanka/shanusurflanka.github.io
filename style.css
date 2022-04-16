@@ -37,3 +37,23 @@ img {
     margin: 0 auto;
     max-width: 100%;
 }
+
+@media (min-width:320px) {
+    
+    .nav-wrapper{
+        width: 320px;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: relative;
+        text-align: center;
+    }
+
+    #check-menu{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+         appearance: none;
+    }
+
+
+
+}
