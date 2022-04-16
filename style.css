@@ -44,7 +44,7 @@ img {
         width: 320px;
         height: 40px;
         margin: 0 auto;
-        background-color: rgba(0, 0, 0, 0.5);
+    
         position: relative;
         text-align: center;
     }
@@ -89,24 +89,37 @@ img {
 
     .burger-line{
         position: absolute;
-        top: 8px;
-        right: 10px;
+        top: 9px;
+        right: 15px;
         width: 30px;
         height: 2px;
-        background-color: white;
+        background-color: black;
+        transition: 0.2s all;
     }
 
     .burger-line-seconde,
     .burger-line-thirth{
-        top: 18px;
+        top: 19px;
     }
 
-    .burger-line-first-fourth{
-        top: 28px;
+    .burger-line-fourth{
+        top: 29px;
     }
 
     #check-menu:checked ~ .nav-list{
         max-height: 500px;
         font-size: 16px;
+    }
+
+    #check-menu:checked ~ .burger-line-first,
+    #check-menu:checked ~ .burger-line-fourth{
+        display: none;
+    }
+
+    #check-menu:checked ~ .burger-line-seconde{
+        transform: rotate(45deg);
+    }
+    #check-menu:checked ~ .burger-line-thirth{
+        transform: rotate(-45deg);
     }
 }
