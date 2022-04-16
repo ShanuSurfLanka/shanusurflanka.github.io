@@ -75,6 +75,7 @@ img {
         max-height: 0;
         font-size: 0;
         overflow: hidden;
+        transition: 0.5s all;
     }
 
     .nav-link{
@@ -104,8 +105,8 @@ img {
         top: 28px;
     }
 
-    #check-menu:checked + .nav-list{
-        max-height: 100px;
+    #check-menu:checked ~ .nav-list{
+        max-height: 500px;
         font-size: 16px;
     }
 }
