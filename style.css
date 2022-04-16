@@ -83,4 +83,21 @@ img {
         border-top: 1px solid rgba(255, 255, 255, 0.5);
     }
 
+    .burger-line{
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+    }
+
+    .burger-line-seconde,
+    .burger-line-thirth{
+        top: 18px;
+    }
+
+    .burger-line-first-fourth{
+        top: 28px;
+    }
 }
