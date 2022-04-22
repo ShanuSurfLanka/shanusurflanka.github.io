@@ -140,40 +140,23 @@ img {
         top: 0;
     }
 
+
     .main-title{
         text-align: center;
     }
 
-    .welcome__wrapper{
-        margin: 30px auto;
-        max-width: 60%;
-        overflow: hidden;
-    }
-    .welcome{
-
-    }
-    .welcome__title{
-        display: block;
-        width: 100%;
-        animation: welcome 5s linear infinite;
-    }
-    
-    @keyframes welcome {
-        0%{
-            transform: translateX(100%);
-        }
-        100%{
-            transform: translateX(-100%);
-        }
-        
-    }
     .about__book-btn{
         display: block;
         width: 100px;
         height: 25px;
         margin: 0 auto;
+        padding: 10px;
         border: 1px solid black;
+        text-decoration: none;
+        color: black;
+        text-align: center;
     }
+
 
 
 
